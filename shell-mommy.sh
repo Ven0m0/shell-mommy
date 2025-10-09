@@ -6,10 +6,10 @@ mommy() (
   # SHELL_MOMMYS_PRONOUNS - what pronouns mommy will use for themself~ (default: "her")
   # SHELL_MOMMYS_ROLES - what role mommy will have~ (default "mommy")
 
-  COLORS_LIGHT_PINK='\e[38;5;217m'
-  COLORS_LIGHT_BLUE='\e[38;5;117m'
-  COLORS_FAINT='\e[2m'
-  COLORS_RESET='\e[0m'
+  COLORS_LIGHT_PINK='\033[38;5;217m'  #\e[38;5;217m
+  COLORS_LIGHT_BLUE='\033[38;5;117m'  #'\e[38;5;117m
+  COLORS_FAINT='\033[2m'              #'\e[2m
+  COLORS_RESET='\033[0m'              #'\e[0m
 
   DEF_WORDS_LITTLE="girl"
   DEF_WORDS_PRONOUNS="her"
